@@ -1,7 +1,15 @@
 {
   "dependencies": {
+    "express": "^4.21.1",
     "mongoose": "^8.8.0",
     "node": "^22.11.0",
     "nodemon": "^3.1.7"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
   }
 }
